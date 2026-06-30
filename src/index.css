@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@import "shabnam-font/dist/font-face.css";
+@import "tanha-font/dist/font-face.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --font-sans: "Vazirmatn", ui-sans-serif, system-ui, sans-serif;
+  --font-tanha: "Tanha", sans-serif;
+  --font-shabnam: "Shabnam FD","Shabnam", sans-serif;
+  --color-brand-50: #eff6ff;
+  --color-brand-100: #dbeafe;
+  --color-brand-200: #bfdbfe;
+  --color-brand-300: #93c5fd;
+  --color-brand-400: #60a5fa;
+  --color-brand-500: #3b82f6;
+  --color-brand-600: #2563eb;
+  --color-brand-700: #1d4ed8;
+  --color-brand-800: #1e40af;
+  --color-brand-900: #1e3a8a;
+  
+  --color-accent-50: #fff7ed;
+  --color-accent-100: #ffedd5;
+  --color-accent-500: #f97316;
+  --color-accent-600: #ea580c;
+
+  --color-playful-pink: #f472b6;
+  --color-playful-cyan: #22d3ee;
+  --color-playful-yellow: #facc15;
+}
+
+html {
+  scroll-behavior: smooth;
+}
